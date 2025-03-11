@@ -1,0 +1,7 @@
+<h1>Customers Without Emails</h1>
+
+<% @customers.each do |customer| %>
+  <p><%= customer.full_name %></p>
+<% end %>
+
+<%= link_to "Back to Customers", customers_path, class: "button" %>
