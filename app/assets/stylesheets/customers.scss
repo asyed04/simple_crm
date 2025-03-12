@@ -1,20 +1,70 @@
-.customer-card {
-    border: 1px solid #ddd;
-    padding: 15px;
-    margin: 10px;
-    border-radius: 8px;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
+/* Customers Page Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
   }
   
+  /* Customer List Page */
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 28px;
+    color: #222;
+  }
+  
+  /* Buttons */
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Customer Card */
+  .customer-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    width: 60%;
+    max-width: 600px;
+  }
+  
+  /* Customer Image */
   .customer-image img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    object-fit: cover;
+    display: block;
+    margin: 0 auto 15px;
   }
   
+  /* Customer Info */
   .customer-info {
-    margin-left: 10px;
+    text-align: center;
+  }
+  
+  .customer-info h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .customer-info p {
+    font-size: 16px;
+    margin: 5px 0;
   }
   

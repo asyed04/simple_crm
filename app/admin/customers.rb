@@ -46,6 +46,7 @@ ActiveAdmin.register Customer do
         f.input :phone_number
         f.input :email_address
         f.input :notes
+        f.input :image, as: :file  # Image Upload Field
       end
       f.actions
     end
